@@ -6,7 +6,7 @@ const RegisterForm = () => {
     username: '',
     email: '',
     phoneNumber: '',
-    password: '', // Added password field
+    password: '',
   });
 
   const handleChange = (e) => {
@@ -31,7 +31,6 @@ const RegisterForm = () => {
 
       if (response.ok) {
         console.log('User registered successfully!');
-        // Optionally, you can redirect the user or perform other actions
       } else {
         console.error('Failed to register user');
       }
@@ -75,7 +74,7 @@ const RegisterForm = () => {
       <label>
         Password:
         <input
-          type="password" // Use type="password" for password fields
+          type="password"
           name="password"
           value={formData.password}
           onChange={handleChange}
