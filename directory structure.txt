@@ -1,0 +1,27 @@
+- /crud
+  - /pages
+    - index.js
+    - login.js
+    - register.js
+    - profile.js
+    - /api
+      - user.js
+  - /components
+    - Layout.js
+    - LoginForm.js
+    - RegisterForm.js
+    - UserProfile.js
+    - UserList.js
+  - /styles
+    - tailwind.css
+  - /lib
+    - db.js
+  - /auth
+    - [...nextauth].js
+  - next.config.js
+  - package.json
+  - .env
+
+
+npm install bcrypt
+npm install mongodb
